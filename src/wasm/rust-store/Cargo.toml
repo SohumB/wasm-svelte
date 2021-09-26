@@ -1,0 +1,16 @@
+[package]
+name = "rust-store"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+signals-are-svelte-stores = { path = "../signals-are-svelte-stores" }
+dominator = "0.5.20"
+wasm-bindgen = {version = "0.2.78", features = ["nightly"]}
+futures-signals = "0.3.22"
+wee_alloc = "0.4.5"

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "signals-are-svelte-stores",
+  "rust-store",
+]
+
+[profile.release]
+lto = true

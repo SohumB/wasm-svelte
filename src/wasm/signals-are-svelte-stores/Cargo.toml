@@ -1,0 +1,14 @@
+[package]
+name = "signals-are-svelte-stores"
+version = "0.1.0"
+edition = "2018"
+categories = ["wasm"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = {version = "0.2.78", features = ["nightly"]}
+wasm-bindgen-futures = "0.4.28"
+js-sys = "0.3.55"
+futures-signals = "0.3.22"
