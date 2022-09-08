@@ -12,6 +12,6 @@
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.24",
     "@wasm-tool/rollup-plugin-rust": "^1.0.7",
     "svelte": "^3.43.0",
-    "vite": "^2.5.10"
+    "vite": "^2.9.13"
   }
 }
